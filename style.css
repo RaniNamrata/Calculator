@@ -1,0 +1,44 @@
+html,body {
+  height: 100%;
+  width: 100%;
+}
+button{
+      font-size: 2em;
+      font-family: sans-serif;
+      width: 90px;
+      padding: 20px;
+      margin: 0 3px;
+      border: 2px solid black;
+      border-radius: 9px;
+      cursor: pointer;
+      background-color: indianred;
+    }
+button:hover{
+  color: white;
+  background-color:blue;
+}
+    .container{
+      text-align: center;
+      background-image: linear-gradient(yellow,rgb(80,180,138));
+      margin-left: 34%;
+      margin-right: 34%;
+      display: flex;
+      flex-direction: column;
+      border: 2px solid black;
+      border-radius: 35px;
+    }
+    .row{
+      text-align: center;
+      margin: 8px 0;
+    }
+    .row input{
+      margin:0;
+      font-family: cursive;
+      font-weight: bold;
+      font-size: 1.5em;
+      padding: 30px 60px;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+    
+    
